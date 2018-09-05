@@ -1,0 +1,65 @@
+.container-fluid {
+  class: container-fluid;
+}
+
+.green {
+  color: #444444;
+}
+
+.linkedin {
+  color: #007BB6;
+}
+
+.instagram {
+  color: #3F729B;
+}
+
+.smaller-image {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: Playfair Display;
+}
+
+h1 {
+  font-family: Playfair Display;
+}
+
+input {
+  font-family: Playfair Display;
+}
+
+body {
+  font-display: Playfair Display;
+}
+
+.circle {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.fair-font {
+ font-family: Playfair Display; 
+}
+
+.submit-button {
+  margin-top: 20px;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.division {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.big-division {
+  margin-top: 65px;
+  margin-bottom:65px;
+}
