@@ -1,8 +1,131 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1> Karen's Portfolio Site</h1>
-<p> Welcome to my site! Please excuse the mess! Thanks! :) </p>
+<!--https://drive.google.com/uc?export=view&id=FILEID -->
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+<script src="jquery.localscroll.js" type="text/javascript"></script> 
+<script src="jquery.scrollTo.js" type="text/javascript"></script>
+  
+  <script>
+function sendEmail() 
+{
+    window.location = "mailto:kberba@gmail.com";
+}
+</script>
 
+  <script src="https://use.fontawesome.com/73fdde40fe.js"></script>
+  <link href="bootstrap-social.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div class="container-fluid">
+  <div class="row">
+   <div class="col-xs-7">
+      <a style="color:black" href="#About"><p>About</p></a>
+    </div>
+   
+    <div class="col-xs-7">
+      <a style="color:Black" href="#Projects">
+      <p>Projects</p></a>
+     </div>
+   
+    <div class="col-xs-7"> 
+      <a style="color:black" href="#Contact"><p>Contact</p></a>
+      </div>
+   
+    <div class="col-xs-7">
+      <a style="color:black" href="#Follow"><p>Follow</p></a>
+      </div>
+   
+  </div>
+   </div>
+  <img class="img-responsive" src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OZDEyaE5nR3pqb1U">
+  <p>*Pictures found on this webpage were taken with a Konica C35 EF (35 mm film camera).</p>
+  
+  <div class="section division">
+    <div id="nav" class="clearfix">
+    <a style="color:black" id="About"><h1>About Me</h1></a>
+    <img class="img-responsive circle center" src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OTWcwRksyRmlXQTg">
+    <div style="padding:55px;">
+    <p>Hello, my name is Karen! I'm currently a pharmacy technician, as well as an amateur photographer. I recently stumbled into the wonderful world of programming. If you see anything you like, please give me a shout out. And if you have any requests, please send those as well. Thank you! </p>
+    </div>
+    </div>
+    
+   <div class="section division">
+     <a style="color:black" id="Projects"><h1>Projects</h1></a>
+     <p>This is what I'm currently working on. I'll update it whenever I work on anything new!</p>
+     <div class="row">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OU1FENjRzbG85Yms">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OaWJxcUI3RVB5dWc">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4ONmtOQXB4c29aRjg">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OU1FENjRzbG85Yms">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OaWJxcUI3RVB5dWc">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4ONmtOQXB4c29aRjg">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OU1FENjRzbG85Yms">
+     </div>
+     
+     <div style="margin-top:20px;" class="row">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OaWJxcUI3RVB5dWc">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4ONmtOQXB4c29aRjg">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OU1FENjRzbG85Yms">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OaWJxcUI3RVB5dWc">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4ONmtOQXB4c29aRjg">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OU1FENjRzbG85Yms">
+     <img src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OaWJxcUI3RVB5dWc">
+    </div>
+    </div>
+    
+   <div class="section big-division">
+     <a style="color:black" id="Contact">
+       <h1>Contact</h1></a>
+     <p>If you need to reach me, just leave me your contact information and I will get back to you as soon as I can. Thank you!</p>
+     <fieldset>
+       <legend class="fair-font">Your Contact Info</legend>
+     <form action="MAILTO:kberba@gmail.com" method="post" enctype="text/plain">
+     
+       Name <br>
+      <input type="text" name="name"><br>
+        Email<br>
+     <input type="text" name="mail"  placeholder="email@emailaddress.com" name="number"></form><br>
+       Phone Number <br>
+    <input type="text" placeholder="(123) 456-7890"></form> <br>
+      Comment <br>
+    <input type="text" name="comment"><br>
+  
+     <input type="submit" onclick="sendEmail();" class="btn btn-primary" style="margin-top:10px;">
+     </input>
+  <input type="reset" class="btn btn-danger" style="margin-top:10px;">
+     </input>
+  </fieldset> 
+  </form>
+     
+    </div>
+    
+    <div class="section big-division">
+      <a style="color:black" id="Follow">
+        <h1>Follow Me</h1></a>
+      <div class="text-center">
+      <p>If you want to know what else I'm working, please follow me here:</p>
+      <div class="row">
+      <a href="https://github.com/kberba" class="btn btn-github green"
+         target="_blank">
+        <span class="fa fa-github fa-3x"></span> </a>
+        <a href="https://www.linkedin.com/in/karen-berba-572861bb/" class="btn btn-linkedin "
+         target="_blank">
+        <span class="fa fa-linkedin fa-3x"></span></a>
+        <a href="https://www.freecodecamp.com/kberba"target="_blank">
+          <img class="smaller-image" src="https://pbs.twimg.com/profile_images/692531829287567360/ytP7U362.png">
+        </a>
+        <a class="btn btn-instagram" href="https://www.instagram.com/berbski/" target="_blank">
+        <span class="fa fa-instagram instagram fa-3x"></span>
+        </a>
+        <img class="img-responsive" src="https://drive.google.com/uc?export=view&id=0B8n1wUrFpy4OMFBmM1dwQ0czbEk">
+        </div>
+        
+      </div>
+      </div>
+    </div>
+</div>
 </body>
 </html>
